@@ -1,0 +1,21 @@
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    margin: 0;
+    border-radius: 10px;
+    border: 1px solid #341009;
+    width: 460px;
+}
+
+.spinner {
+    position: absolute;
+    top: 25%;
+    right: 16px;
+}
+
+.dropdown {
+    z-index: 1
+}

@@ -1,0 +1,108 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: calc(50vh - 330px);
+
+    padding: 8px 96px;
+    border-radius: 12px;
+}
+
+.logo {
+    display: flex;
+    transition: all 0.5s;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 36px;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    grid-template-areas:
+        "namesInput namesInput"
+        "username email"
+        "password cpassword"
+        "terms terms"
+}
+
+.formLabel {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+}
+
+.inputBox {
+    height: 36px;
+    border-radius: 6px;
+    padding: 9px;
+    width: 320px;
+}
+
+.passwordContainer {
+    position: relative;
+}
+
+.showPasswordButton {
+    position: absolute;
+    top: 25%;
+    right: 2%;
+    border: none;
+    background: none;
+}
+
+.passwordsvg {
+    height: 20px;
+    width: 20px;
+}
+
+.termsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: terms;
+    gap: 12px;
+}
+
+.terms {
+    cursor: pointer;
+}
+
+.enterContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.enter {
+    width: 100%;
+    max-width: 320px;
+    padding: 0.75em 1.25em;
+    border-radius: 0.4em;
+    transition: 0.3s;
+}

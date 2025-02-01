@@ -1,0 +1,86 @@
+.card {
+    width: 18rem;
+    max-height: 55vh;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 45px;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+}
+
+.card:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: 1px solid #ccc;
+  }
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardImgContainer {
+    position: relative;
+}
+
+.cardImg {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+.time {
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    border-radius: 8px;
+}
+
+.normalTime {
+    background-color: darkgray;
+}
+
+.expiredTime {
+    background-color: darkred;
+}
+
+.timeText {
+    font-weight: 500;
+    padding: 6px;
+    border-radius: 6px;
+    color: white;
+}
+
+.cardBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
+.divider {
+    width: 100%;
+    border-top: 2px solid lightslategray;
+}
+
+.titleWrapper {
+    max-width: calc(100% - 34px);
+    flex: 1;
+    padding-right: 10px;
+    text-wrap: wrap;
+}
+
+.cardTitle {
+    display: inline;
+}

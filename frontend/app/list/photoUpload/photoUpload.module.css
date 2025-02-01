@@ -1,0 +1,91 @@
+.projectPicture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+}
+
+.formLabel {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.pictureContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.currentPic {
+    border: 2px solid lightgray;
+    border-radius: 10px;
+}
+
+.actionContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.actionRemind {
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.627);
+}
+
+.picActions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.photoUpload {
+    position: relative;
+    display: inline-block;
+}
+
+.photoUploadLabel {
+    display: block;
+    padding: 0.5em 1.5em;
+    background: #08c7e4;
+    color: white;
+    border-radius: 0.4em;
+    transition: background 0.3s;
+}
+
+.photoUploadLabel:hover {
+    cursor: pointer;
+    background: #08b2cc;
+    filter: brightness(0.9)
+}
+
+.photoUploadInput {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 1;
+    width: 0;
+    height: 100%;
+    opacity: 0;
+}
+
+.photoDelete {
+    width: max-content;
+    padding: 0.5em 1.5em;
+    border-radius: 0.4em;
+    background-color: rgb(210, 74, 74);
+    border: 1px solid lightgray;
+    color: white;
+}
+
+.photoDelete:hover {
+    filter: brightness(90%)
+}
+
+.photoDelete:disabled,
+.createButton:disabled {
+    cursor: not-allowed;
+}

@@ -1,0 +1,31 @@
+.button {
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: max-content;
+    padding: 0.6em 1.25em;
+    border: none;
+    border-radius: 0.4em;
+    width: fit-content;
+    transition: 0.3s all;
+}
+
+.formLabel {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+}
+
+.inputBox {
+    height: 36px;
+    width: 350px;
+    border-radius: 6px;
+    padding: 9px;
+}

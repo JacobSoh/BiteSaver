@@ -1,0 +1,94 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 4px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+
+.desc {
+    text-align: center;
+    width: 500px;
+}
+
+.formLabel {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+}
+
+.inputBox {
+    height: 36px;
+    width: 350px;
+    border-radius: 6px;
+    padding: 9px;
+}
+
+.enterContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.enter {
+    width: 350px;
+    padding: 0.75em 1.25em;
+    border: none;
+    border-radius: 0.4em;
+    transition: 0.3s
+}
+
+.link:hover {
+    text-decoration: underline;
+  }
+
+/* OTP Specific */
+.otpButton {
+    border: none;
+    margin: none;
+    font-weight: 700
+}
+
+.resend {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.resendText {
+    font-weight: 500;
+}
+
+.svg {
+    width: 24px;
+    height: 24px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-top: 6px;
+}

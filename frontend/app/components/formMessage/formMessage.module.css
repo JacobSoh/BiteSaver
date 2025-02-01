@@ -1,0 +1,25 @@
+.toast {
+    top: 4rem !important;
+    width: fit-content;
+    max-width: 40vw;
+    border-radius: 50%;
+  }
+  
+  .toastContent {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    min-width: 260px;
+  }
+  
+  .toastStatus {
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .toastMessage {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 16px;
+    font-weight: 400;
+  }

@@ -1,0 +1,102 @@
+.container {
+    display: grid;
+    grid-template-rows: min-content min-content;
+    justify-content: center;
+    height: 100%;
+    margin: 0;
+    padding-bottom: 8px;
+  }
+  
+  .logo {
+    display: flex;
+    transition: all 0.5s;
+  }
+  
+  .logo:hover {
+    transform: scale(1.1)
+  }
+  
+  .form {
+    grid-row: 2 / span 1;
+    justify-content: center;
+    justify-items: center;
+    margin: 10px;
+    padding: 10px 30px;
+    display: grid;
+    grid-template-rows: repeat(3, min-content);
+    grid-template-columns: 400px;
+    row-gap: 15px;
+    align-items: start;
+  }
+  
+  .formLabel {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  
+  .formInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+  }
+  
+  .inputBox {
+    height: 36px;
+    width: 350px;
+    border-radius: 6px;
+    padding: 9px;
+  }
+  
+  .passwordContainer {
+    position: relative;
+  }
+  
+  .showPasswordButton {
+    position: absolute;
+    top: 25%;
+    right: 2%;
+    border: none;
+    background: none;
+  }
+  
+  .passwordsvg {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .forgotPass {
+    font-weight: 500;
+    margin-top: 4px;
+    margin-left: auto;
+    text-decoration: none;
+  }
+  
+  .forgotPass:hover {
+    text-decoration: underline;
+  }
+  
+  .enterContainer {
+    align-content: center;
+    margin-top: 20px;
+    height: min-content;
+  }
+  
+  .enter {
+    width: calc(100% - 50px);
+    padding: 0.75em 1.25em;
+    border: none;
+    border-radius: 0.4em;
+    margin-top: 12px;
+    transition: 0.3s
+  }
+
+  .noAccount {
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .noAccount:hover {
+    text-decoration: underline;
+  }
+  
